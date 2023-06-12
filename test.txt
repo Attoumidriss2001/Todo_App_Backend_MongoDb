@@ -1,0 +1,8 @@
+POST http://localhost:8000/tache/create
+Content-Type: application/json
+
+{
+    "title": " walk the dog",
+    "description": "johndoe@example.com",
+    "_status": "Done"
+}
